@@ -9,6 +9,6 @@ def echoTest(string_test) {
 
 def excute() {
     stage('test'){
-        echoTest('helloword')
+        [echoTest('helloword')]
     }
 }
